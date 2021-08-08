@@ -5,8 +5,11 @@ spring:
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
     
-  jpa:    hibernate:      ddl-auto: update
+  jpa:
+    hibernate:
+      ddl-auto: update
     show-sql: true
     
 
-server:  address: localhost
+server:
+  address: localhost
